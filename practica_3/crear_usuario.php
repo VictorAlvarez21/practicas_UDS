@@ -72,7 +72,6 @@ if ($_SESSION["rol"] != 1) {
                             </label>
                             <select class="form-select" id="rol"name="rol" required>
                                 <option value="">Selecciona un rol</option>
-                                <option value="1">Administrador</option>
                                 <option value="2">Maestro</option>
                                 <option value="3">Alumno</option>
                             </select>
